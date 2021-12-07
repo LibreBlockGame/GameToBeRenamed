@@ -1,23 +1,16 @@
-Minetest
-========
+# Libre Block Game
 
 ![Build Status](https://github.com/minetest/minetest/workflows/build/badge.svg)
 [![Translation status](https://hosted.weblate.org/widgets/minetest/-/svg-badge.svg)](https://hosted.weblate.org/engage/minetest/?utm_source=widget)
 [![License](https://img.shields.io/badge/license-LGPLv2.1%2B-blue.svg)](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html)
 
-Minetest is a free open-source voxel game engine with easy modding and game creation.
+Community-driven fork of minetest, a free/libre voxel game engine with easy modding and game creation.
 
-Copyright (C) 2010-2020 Perttu Ahola <celeron55@gmail.com>
-and contributors (see source file comments and the version control log)
+# We're hiring!
 
-In case you downloaded the source code
---------------------------------------
-If you downloaded the Minetest Engine source code in which this file is
-contained, you probably want to download the [Minetest Game](https://github.com/minetest/minetest_game/)
-project too. See its README.txt for more information.
+Apply today at libreblockgame <at> dralle <dot> tech :-)
 
-Table of Contents
-------------------
+# Table of Contents
 
 1. [Further Documentation](#further-documentation)
 2. [Default Controls](#default-controls)
@@ -29,8 +22,8 @@ Table of Contents
 8. [Version Scheme](#version-scheme)
 
 
-Further documentation
-----------------------
+# Further documentation
+
 - Website: https://minetest.net/
 - Wiki: https://wiki.minetest.net/
 - Developer wiki: https://dev.minetest.net/
@@ -38,51 +31,9 @@ Further documentation
 - GitHub: https://github.com/minetest/minetest/
 - [doc/](doc/) directory of source distribution
 
-Default controls
-----------------
-All controls are re-bindable using settings.
-Some can be changed in the key config dialog in the settings tab.
 
-| Button                        | Action                                                         |
-|-------------------------------|----------------------------------------------------------------|
-| Move mouse                    | Look around                                                    |
-| W, A, S, D                    | Move                                                           |
-| Space                         | Jump/move up                                                   |
-| Shift                         | Sneak/move down                                                |
-| Q                             | Drop itemstack                                                 |
-| Shift + Q                     | Drop single item                                               |
-| Left mouse button             | Dig/punch/take item                                            |
-| Right mouse button            | Place/use                                                      |
-| Shift + right mouse button    | Build (without using)                                          |
-| I                             | Inventory menu                                                 |
-| Mouse wheel                   | Select item                                                    |
-| 0-9                           | Select item                                                    |
-| Z                             | Zoom (needs zoom privilege)                                    |
-| T                             | Chat                                                           |
-| /                             | Command                                                        |
-| Esc                           | Pause menu/abort/exit (pauses only singleplayer game)          |
-| R                             | Enable/disable full range view                                 |
-| +                             | Increase view range                                            |
-| -                             | Decrease view range                                            |
-| K                             | Enable/disable fly mode (needs fly privilege)                  |
-| P                             | Enable/disable pitch move mode                                 |
-| J                             | Enable/disable fast mode (needs fast privilege)                |
-| H                             | Enable/disable noclip mode (needs noclip privilege)            |
-| E                             | Aux1 (Move fast in fast mode. Games may add special features)  |
-| C                             | Cycle through camera modes                                     |
-| V                             | Cycle through minimap modes                                    |
-| Shift + V                     | Change minimap orientation                                     |
-| F1                            | Hide/show HUD                                                  |
-| F2                            | Hide/show chat                                                 |
-| F3                            | Disable/enable fog                                             |
-| F4                            | Disable/enable camera update (Mapblocks are not updated anymore when disabled, disabled in release builds)  |
-| F5                            | Cycle through debug information screens                        |
-| F6                            | Cycle through profiler info screens                            |
-| F10                           | Show/hide console                                              |
-| F12                           | Take screenshot                                                |
+# Paths
 
-Paths
------
 Locations:
 
 * `bin`   - Compiled binaries
@@ -110,8 +61,8 @@ Where each location is on each platform:
 
 Worlds can be found as separate folders in: `user/worlds/`
 
-Configuration file
-------------------
+# Configuration file
+
 - Default location:
     `user/minetest.conf`
 - This file is created by closing Minetest for the first time.
@@ -120,12 +71,12 @@ Configuration file
 - A run-in-place build will look for the configuration file in
     `location_of_exe/../minetest.conf` and also `location_of_exe/../../minetest.conf`
 
-Command-line options
---------------------
+# Command-line options
+
 - Use `--help`
 
-Compiling
----------
+# Compiling
+
 ### Compiling on GNU/Linux
 
 #### Dependencies
@@ -468,8 +419,8 @@ Data will be written to `/home/minetest/data` on the host, and configuration wil
 You can also host your Minetest server inside a Kubernetes cluster. See our example implementation in [`misc/kubernetes.yml`](misc/kubernetes.yml).
 
 
-Version scheme
---------------
+# Version scheme
+
 We use `major.minor.patch` since 5.0.0-dev. Prior to that we used `0.major.minor`.
 
 - Major is incremented when the release contains breaking changes, all other
