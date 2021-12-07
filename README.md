@@ -8,7 +8,7 @@ Community-driven fork of minetest, a free/libre voxel game engine with easy modd
 
 # We're hiring!
 
-Apply today at libreblockgame <at> dralle <dot> tech :-)
+Apply today at libreblockgame `<at>` dralle `<dot>` tech :-)
 
 # Table of Contents
 
